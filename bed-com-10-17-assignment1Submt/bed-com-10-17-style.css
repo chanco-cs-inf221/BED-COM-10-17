@@ -1,0 +1,98 @@
+body{
+	border:  3px solid;
+	padding: 10px;
+	margin: 10px auto;
+	background-image: url(images/cheSteve1);
+	background-color: grey;
+}
+
+header nav{
+    
+    text-align: top;
+    overflow: hidden;
+}
+header li{
+    float: right;
+    padding: 5px;
+    display: inline;
+}
+header :hover{
+	color: rgb(192, 225, 238);
+	text-emphasis: size= 20;
+}
+img{
+	border-radius: 50%;
+}
+a{
+	color:blue;
+}
+.images{
+	text-align: left;
+	font-size: 16;
+	border: solid;
+}
+.images :hover{
+	background: rgba(129, 240, 96, 0.74);
+}
+h2{
+	text-align: center;
+}
+h4{
+	font-size:20px;
+}
+.container{
+	width: 96%;
+	overflow: hidden;
+	background:  blue;
+	margin:  21px auto;
+	padding: 21px;
+	border: solid;
+
+}
+.container ul{
+	padding: auto;
+	margin: auto;
+	border: solid auto;
+}
+.container ul li{
+	border: solid;
+	list-style: none;
+	float: left;
+	 width: 21%;
+     height: 300px;
+     text-decoration-color: darkred;
+	 background: green;
+	 margin: 30px 30px 0px
+
+}
+.container ul li :hover{
+	color:whitesmoke;
+}
+.container ul li .title :hover{
+	color:rgb(75, 6, 6);
+}
+.container ul li .title{
+    width: 100%;
+    text-decoration-color: darkred;
+	height: auto;
+	text-align: center;
+}
+.WorkMenu{
+	padding: 20px;
+	border: solid;
+	text-align: left;
+	font-size-adjust: 14;
+}
+.WorkMenu :hover{
+ color: rgb(161, 9, 9);
+ background-color: skyblue;
+}
+.footer{
+
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
